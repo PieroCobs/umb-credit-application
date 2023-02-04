@@ -1,0 +1,14 @@
+
+.label {
+   text-transform: capitalize;
+   margin-right: 20px;
+   flex-grow: 0;
+   text-align: right;
+   width: calc(40% - 20px);
+
+   @media (max-width: 992px) {
+      width: 100%;
+      text-align: left;
+      margin-bottom: 12px;
+   }
+}

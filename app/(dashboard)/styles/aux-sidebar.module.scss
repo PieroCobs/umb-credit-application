@@ -1,0 +1,49 @@
+@import '../../styles/variables.module';
+
+.sidebar {
+   width: 100%;
+   max-width: 260px;
+   background: $umb-gray-1;
+   padding: 32px 40px; 
+   border-left: 1px solid #0001;
+
+   .user-control {
+      flex-direction: column;
+      position: relative;
+      margin-bottom: 80px;
+
+      .notification-icon {
+         position: absolute;
+         top: 0;
+         right: 0;
+      }
+
+      &, .avatar {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+      }
+
+      .avatar {
+         width: 80px;
+         height: 80px;
+         border-radius: 12px;
+         background: $umb-gray-2;
+      }
+
+      .username, .role { 
+         text-transform: capitalize;
+      }
+
+      .username {
+         font-weight: 700;
+         margin-top: 12px;
+         margin-bottom: 4px;
+      }
+
+      .role {
+         font-size: 12px;
+         color: $umb-text-gray;
+      }
+   }
+}

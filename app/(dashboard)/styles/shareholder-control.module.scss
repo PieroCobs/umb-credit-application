@@ -1,0 +1,36 @@
+.shareholder-control {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 20px;
+
+   .remove {
+      border: none;
+      background: none;
+      width: 28px;
+      height: 28px;
+      color: red;
+      border-radius: 100%;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 200ms;
+   }
+
+   button.remove:hover {
+      background: #0001;
+   }
+
+   .holder {
+      width: calc(80% - 48px);
+   }
+
+   .holding {
+      width: 20%;
+   }
+
+   input {
+      width: 100%;
+   }
+}

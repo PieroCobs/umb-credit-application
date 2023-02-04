@@ -1,0 +1,40 @@
+@import './variables.module';
+
+.root {
+   * {
+      box-sizing: border-box;
+      font-family: 'Inter';
+   }
+
+   body {
+      padding: 0;
+      margin: 0;
+   }
+
+   p, span {
+      font-size: 14px;
+   }
+
+   a {
+      color: $umb-yellow;
+      text-decoration: none;
+      font-size: 13px;
+   }
+
+   input {
+      box-sizing: border-box;
+      padding: 0 16px;
+      height: 48px;
+      font-size: 15px;
+      flex: 1 0 auto;
+      border: none;
+      background: $umb-gray-3;
+      border-radius: 5px;
+      outline-color: $umb-yellow;
+      font-family: 'Inter' !important;
+
+      &:focus {
+         background: $umb-white;
+      }
+   }
+}

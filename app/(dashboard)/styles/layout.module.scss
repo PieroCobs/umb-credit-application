@@ -1,0 +1,16 @@
+@import '../../styles/variables.module.scss';
+
+.layout {
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+
+   .agora {
+      background: $umb-white;
+      flex: 1 1 auto;
+      overflow-y: hidden;
+      display: flex;
+      flex-direction: column;
+      padding: 32px 32px 0;
+   }
+}

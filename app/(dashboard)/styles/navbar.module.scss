@@ -1,0 +1,18 @@
+@import '../../styles/variables.module';
+
+.navbar {
+   a {
+      & + a {
+         margin-top: 20px;
+      }
+   }
+   
+   .active {
+      background: $umb-yellow;
+      padding-left: 16px;
+
+      &:hover {
+         background: darken($umb-yellow, 10%) !important;
+      }
+   }
+}

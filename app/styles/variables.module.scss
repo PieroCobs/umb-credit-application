@@ -1,0 +1,32 @@
+// color definitions
+$umb-yellow: #FAB33A;
+$umb-yellow-alpha-50: #FAB33A80;
+$umb-yellow-alpha-25: #FAB33A40;
+$umb-yellow-alpha-10: #FAB33A1A;
+
+$umb-gray-1: #F4F4F4;
+$umb-gray-2: #D8D8D8;
+$umb-gray-3: #ECECEC;
+$umb-gray-4: #B2B2B2;
+
+$umb-white: #fff;
+$umb-body-text: #111;
+$umb-text-gray: #0007;
+$umb-text-gray-2: #6B6B6B;
+
+:export {
+   umbYellow: $umb-yellow;
+   umbYellowAlpha50: $umb-yellow-alpha-50;
+   umbYellowAlpha25: $umb-yellow-alpha-25;
+   umbYellowAlpha10: $umb-yellow-alpha-10;
+
+   umbGray1: $umb-gray-1;
+   umbGray2: $umb-gray-2;
+   umbGray3: $umb-gray-3;
+   umbGray4: $umb-gray-4;
+
+   umbWhite: $umb-white;
+   umbBodyText: $umb-body-text;
+   umbTextGray: $umb-text-gray;
+   umbTextGray2: $umb-text-gray-2;
+}

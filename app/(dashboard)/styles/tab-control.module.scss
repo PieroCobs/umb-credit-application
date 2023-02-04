@@ -1,0 +1,54 @@
+@import '../../styles/variables.module';
+
+.tab-control {
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+
+   .header {
+      height: 40px;
+      display: flex;
+      padding: 0 40px;
+      border-bottom: 1px solid $umb-gray-2;
+      -ms-overflow-style: none;
+      overflow-x: auto;
+      &::-webkit-scrollbar {
+         display: none;
+      }
+   }
+
+   .body {
+      padding: 60px 40px 40px;
+      overflow-y: auto;
+      flex: 1 1 auto;
+
+      &:not(.active) {
+         display: none;
+      }
+   }
+
+   .footer {
+      height: 70px;
+      display: flex;
+      justify-content: flex-end;
+      padding: 4px 40px 20px;
+   }
+
+   .header, .footer {
+      flex: 0 0 auto;
+   }
+}
+
+.tab-button {
+   padding: 0 32px;
+   text-transform: capitalize;
+   cursor: pointer;
+   background: none;
+   border: none;
+   transition: background-color 200ms;
+   white-space: nowrap;
+
+   &.active {
+      background: $umb-gray-3;
+   }
+}
