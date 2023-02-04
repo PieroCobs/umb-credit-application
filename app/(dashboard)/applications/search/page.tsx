@@ -25,11 +25,3 @@ export default function Page({ searchParams }: { searchParams: string }) {
     </>
   );
 }
-
-export function ListWrapper({ children }: { children: React.ReactNode }) {
-  return (
-    <div className={styles.list}>
-      <div className={styles.container}>{children}</div>
-    </div>
-  );
-}

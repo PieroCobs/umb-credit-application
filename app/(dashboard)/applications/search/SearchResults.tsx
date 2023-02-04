@@ -2,8 +2,8 @@ import React from "react";
 import { Credit } from "@/types/credit";
 import CreditApplicationItem from "../CreditApplicationItem";
 import ContextLifer from "../ContextLifer";
-import { ListWrapper } from "./page";
 import EmptyScreen from "../../EmptyScreen";
+import ListWrapper from "../ListWrapper";
 
 const search = async (terms: string) => {
   const url = `${process.env.NEXT_PUBLIC_BASE_URL}/applications/search?terms=${terms}`;

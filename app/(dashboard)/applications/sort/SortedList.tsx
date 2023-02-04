@@ -8,7 +8,7 @@ import { useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
 import CenteredContent from "../../CenteredContent";
 import CreditApplicationItem from "../CreditApplicationItem";
-import { ListWrapper } from "./page";
+import ListWrapper from "../ListWrapper";
 import SortParams from "./Types";
 
 export default function SortedList() {
