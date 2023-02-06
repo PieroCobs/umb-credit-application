@@ -26,5 +26,7 @@ export default async function search(
     return results;
   };
 
-  res.status(200).json(searchApplications());
+  setTimeout(() => {
+    res.status(200).json(searchApplications());
+  }, 1000);
 }
